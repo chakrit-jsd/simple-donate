@@ -1,5 +1,6 @@
-const SimpleStorage = artifacts.require("SimpleStorage");
+// const SimpleStorage = artifacts.require("SimpleStorage");
+const SimpleDonate = artifacts.require("SimpleDonate");
 
 module.exports = function (deployer) {
-  deployer.deploy(SimpleStorage);
+  deployer.deploy(SimpleDonate);
 };
